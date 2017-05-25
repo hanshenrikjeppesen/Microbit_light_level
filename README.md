@@ -7,7 +7,7 @@ Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig af
 ### Hvad skal vi bruge:
 
 * 1 x BBC microbit
-* 1 x Photosensor LDR [kan foreksempel købes her](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/)
+* 1 x Photosensor LDR (kan foreksempel købes [her](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/)
     * Har du et Inventors Kit fra Kitronik indeholder den en LDR [køb her](https://www.podconsultsbutik.dk/micro-bit-inventors-kit)
 * 1 x batteripack
 * 1 x USB kabel
