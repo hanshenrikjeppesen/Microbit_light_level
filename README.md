@@ -8,6 +8,7 @@ Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig af
 
 * En microbit
 * En photosensor LDR [kan foreksempel købes her](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/)
+    * Har du et Inventors Kit fra Kitronik er alle dele heri [køb her](https://www.podconsultsbutik.dk/micro-bit-inventors-kit) 
 
 ### Markdown
 
