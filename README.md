@@ -2,7 +2,12 @@
 
 Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil på microbitten og når optagelsen er færdig, vil vi hente den over på en computer og arbejde videre med den så vi kan visualisere vores data.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
+
+### Hvad skal vi bruge:
+
+* En microbit
+* En photosensor LDR [kan foreksempel købes her](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/)
 
 ### Markdown
 
