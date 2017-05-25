@@ -16,7 +16,7 @@ Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig af
    * Jumper wires hvis man anvender Inventors Kit
    * ellers krokodille kabler 
 
-![Billede af inventors kit](/5603_inventors_kit_for_the_bbc_microbit_description.jpg)
+![Billede af inventors kit](/IMAGE/5603_inventors_kit_for_the_bbc_microbit_description.jpg)
 
 ### Vores forsøgsopsætning
 
