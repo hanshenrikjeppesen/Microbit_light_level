@@ -1,4 +1,4 @@
-## Lys niveau og data optagelse
+## Eksperiment med Lysniveau og data optagelse
 
 Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil på microbitten og når optagelsen er færdig, vil vi hente den over på en computer og arbejde videre med den så vi kan visualisere vores data.
 
@@ -6,9 +6,21 @@ Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig af
 
 ### Hvad skal vi bruge:
 
-* En microbit
-* En photosensor LDR [kan foreksempel købes her](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/)
-    * Har du et Inventors Kit fra Kitronik er alle dele heri [køb her](https://www.podconsultsbutik.dk/micro-bit-inventors-kit) 
+* 1 x BBC microbit
+* 1 x Photosensor LDR [kan foreksempel købes her](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/)
+    * Har du et Inventors Kit fra Kitronik indeholder den en LDR [køb her](https://www.podconsultsbutik.dk/micro-bit-inventors-kit)
+* 1 x batteripack
+* 1 x USB kabel
+* 1 x 10kohm Modstand
+* 3 x kabler til forbindelse
+   * Jumper wires hvis man anvender Inventors Kit
+   * ellers krokodille kabler 
+
+
+
+### Vores forsøgsopsætning
+
+
 
 ### Markdown
 
