@@ -20,12 +20,7 @@ Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig af
 
 ### Vores forsøgsopsætning
 
-.. toctree::
-   :maxdepth: 2
-   :caption Tutorials
-   
-   Hello
-   Test
+
    
 
 ### Markdown
