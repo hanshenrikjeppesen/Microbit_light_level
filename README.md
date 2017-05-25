@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Lys niveau og data optagelse
 
 You can use the [editor on GitHub](https://github.com/hanshenrikjeppesen/Microbit_light_level/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
