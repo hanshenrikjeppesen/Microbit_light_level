@@ -1,6 +1,6 @@
 ## Lys niveau og data optagelse
 
-You can use the [editor on GitHub](https://github.com/hanshenrikjeppesen/Microbit_light_level/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil på microbitten og når optagelsen er færdig, vil vi hente den over på en computer og arbejde videre med den så vi kan visualisere vores data.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
