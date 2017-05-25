@@ -22,7 +22,7 @@ Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig af
 
 Vi tager i første omgang udgangspunkt i Inventors Kit længere nede kan du finde opsætningen hvis man anvender photosensoren direkte med krokodille kabler:
 
-
+![Opsætning af breadboard](/IMAGE/experiment_light_breadboard.png)
 
    
 
