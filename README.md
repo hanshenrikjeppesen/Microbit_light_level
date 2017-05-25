@@ -20,6 +20,9 @@ Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig af
 
 ### Vores forsøgsopsætning
 
+Vi tager i første omgang udgangspunkt i Inventors Kit længere nede kan du finde opsætningen hvis man anvender photosensoren direkte med krokodille kabler:
+
+
 
    
 
