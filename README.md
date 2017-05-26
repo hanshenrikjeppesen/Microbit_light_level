@@ -4,17 +4,13 @@
 
 Vi skal prøve at måle lysintensiteten som er i rummet omkring microbitten. Lys måles normalt i [LUX](https://da.wikipedia.org/wiki/Lux) som er [SI-enhed](https://da.wikipedia.org/wiki/Syst%C3%A8me_International_d%27Unit%C3%A9s) for måling af belysningsstyrke. I vores forsøg og eksperimenter med microbitten bliver vores målinger oversat (translateret) til en analog elektrisk spænding. Denne analoge spænding kan veksle mellem 0 og 3 Volt. (enheden Volt er opkaldt efter [Alessandro Volta](https://da.wikipedia.org/wiki/Alessandro_Volta). 0 Volt vil sige intet lys, og som i nok allerede har gættet 3 Volt vil sige MEGET lys. Microbitten omdanner den målte værdi til et heltal, et tal mellem 0 og 1023. I computersprog hedder det en Integer. [Hvorfor 1023??](#hvorfor-1023)
 
-
-
-
-
-
 Vores målinger kan vi bruge til mange forskellig opgaver, foreksempel:
 * En alarm som ringer når nogen tænder lyset på dit værelse
 * Tænde udendørslys når det bliver for mørkt
 * Tilpasse lysniveau i et rum efter narturligt lys som kommer ind i rummet
 * Lave et diagram over solen som står op
 
+Vi skal arbejde med programmering både i [Microsoft MakeCode](https://pxt.microbit.org/) og [MicroPython](http://python.microbit.org/editor.html)
 
 Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i gang vi starter ud med en simpel måde:
 
