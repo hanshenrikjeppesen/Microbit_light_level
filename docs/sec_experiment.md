@@ -27,7 +27,7 @@ while True:
    * Jumper wires hvis man anvender Inventors Kit
    * ellers krokodille kabler 
 
-![Billede af inventors kit](Microbit_light_level/IMAGE/5603_inventors_kit_for_the_bbc_microbit_description.jpg)
+![Billede af inventors kit](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/5603_inventors_kit_for_the_bbc_microbit_description.jpg)
 
 ### Vores forsøgsopsætning
 
