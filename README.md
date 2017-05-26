@@ -8,17 +8,12 @@ Vores målinger kan vi bruge til mange forskellig opgaver, foreksempel:
 * Tilpasse lysniveau i et rum efter narturligt lys som kommer ind i rummet
 * Lave et diagram over solen som står op
 
-[link](/docs/newPage.md)
-Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i med en simpel måde:
 
-## Første eksperiment
-Vi starte med en simpel måling af lysniveauet i lokalet og skrive værdien på microbittens display når vi trykker på knap A
+Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i gang vi starter ud med en simpel måde:
 
-### Hvad skal vi bruge
-Til dette forsøg skal vi kun bruge 2 ting.:
-* En Notesbog
-    * Det allervigtigste, en notesbog, det er altid vigtigt at have en laboratorienotesbog ved sin side når man laver forsøg. Herkan man hurtigt skrive nye ideer ned, eller huske på detaljer, *Hvornår startede jeg forsøget* *Hvor mange gange* osv..
-* 1 x Micro:bit
+# [Første eksperiment](/docs/first_experiment.md)
+
+
 
 
 Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil på microbitten og når optagelsen er færdig, vil vi hente den over på en computer og arbejde videre med den så vi kan visualisere vores data.
