@@ -63,7 +63,7 @@ Vi tager i første omgang udgangspunkt i Inventors Kit længere nede kan du find
 ![Opsætning af breadboard](/IMAGE/experiment_light_breadboard.png)
 
    
-#anchors-in-markdown
+# anchors-in-markdown
 
 ### Markdown
 
