@@ -1,6 +1,25 @@
-## Eksperiment med Lysniveau og data optagelse
+# Eksperiment med Lys og data optagelse
 
-Vi skal prøve at måle lysintensiteten som er i rummet omkring microbitten. Lys måles i [LUX](https://da.wikipedia.org/wiki/Lux) som er [SI-enhed](https://da.wikipedia.org/wiki/Syst%C3%A8me_International_d%27Unit%C3%A9s) for måling af belysningsstyrke.  Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil på microbitten og når optagelsen er færdig, vil vi hente den over på en computer og arbejde videre med den så vi kan visualisere vores data.
+Vi skal prøve at måle lysintensiteten som er i rummet omkring microbitten. Lys måles normalt i [LUX](https://da.wikipedia.org/wiki/Lux) som er [SI-enhed](https://da.wikipedia.org/wiki/Syst%C3%A8me_International_d%27Unit%C3%A9s) for måling af belysningsstyrke. I vores arbejde med microbitten bliver vores målinger oversat (translateret) til en analog strømstyrke. Denne strøm kan veksle mellem 0V og 3V. OV vil sige intet lys, og som i nok allerede har gættet 3V vil sige MEGET lys. Microbitten omdanner den målte værdi til et tal mellem 0 og 1023 (Hvorfor 1023 ??)
+
+Vores målinger kan vi bruge til mange forskellig opgaver, foreksempel:
+* En alarm som ringer når nogen tænder lyset på dit værelse
+* Tænde udendørslys når det bliver for mørkt
+* Tilpasse lysniveau i et rum efter narturligt lys som kommer ind i rummet
+* Lave et diagram over solen som står op
+
+
+Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i med en simpel måde:
+
+## Første eksperiment
+Vi starte med en simpel måling af lysniveauet i lokalet og skrive værdien på microbittens display når vi trykker på knap A
+
+### Hvad skal vi bruge
+Til dette forsøg skal vi kun bruge 2 ting. Det allervigtigste, en notesbog, det er altid vigtigt at have en laboratorienotesbog ved sid side når man laver forsøg, så kan man hurtigt skrive nye ideer ned, eller huske på detaljer, *Hvornår startede jeg forsøget* *Hvor mange gange* osv..
+
+
+
+Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil på microbitten og når optagelsen er færdig, vil vi hente den over på en computer og arbejde videre med den så vi kan visualisere vores data.
 
 Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
 
