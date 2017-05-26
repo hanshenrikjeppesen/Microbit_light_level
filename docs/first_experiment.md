@@ -1,7 +1,7 @@
 ## Første eksperiment
 Vi starte med en simpel måling af lysniveauet i lokalet og skrive værdien på microbittens display når vi trykker på knap A
 
-![microbit](https://github.com/hanshenrikjeppesen/Microbit_light_level/IMAGE/microbit.jpg)
+![microbit](https://github.com/hanshenrikjeppesen/Microbit_light_level/blob/master/IMAGE/microbit.jpg)
 
 ### Hvad skal vi bruge
 Til dette forsøg skal vi kun bruge 2 ting.:
