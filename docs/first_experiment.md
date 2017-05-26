@@ -11,3 +11,9 @@ Til dette forsøg skal vi kun bruge 2 ting.:
 * 1 x USB kabel
 * 1 x Computer med internet og [Microsoft MakeCode](https://pxt.microbit.org/)
 
+```blocks
+input.onButtonPressed(Button.B, () => {
+    let level = input.lightLevel()
+    basic.showNumber(level)
+})
+```
