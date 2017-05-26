@@ -1,3 +1,5 @@
+# Eksperiment nr. 2
+
 Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil på microbitten og når optagelsen er færdig, vil vi hente den over på en computer og arbejde videre med den så vi kan visualisere vores data.
 
 Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
@@ -25,13 +27,13 @@ while True:
    * Jumper wires hvis man anvender Inventors Kit
    * ellers krokodille kabler 
 
-![Billede af inventors kit](/IMAGE/5603_inventors_kit_for_the_bbc_microbit_description.jpg)
+![Billede af inventors kit](Microbit_light_level/IMAGE/5603_inventors_kit_for_the_bbc_microbit_description.jpg)
 
 ### Vores forsøgsopsætning
 
 Vi tager i første omgang udgangspunkt i Inventors Kit længere nede kan du finde opsætningen hvis man anvender photosensoren direkte med krokodille kabler:
 
-![Opsætning af breadboard](/IMAGE/experiment_light_breadboard.png)
+![Opsætning af breadboard](Microbit_light_level/IMAGE/experiment_light_breadboard.png)
 
    
 # anchors-in-markdown
