@@ -1,3 +1,3 @@
 # new page
-### [readme](Microbit_light_level/README.md)
+### [readme](/README.md)
 ### TEST
