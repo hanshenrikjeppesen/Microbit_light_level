@@ -15,7 +15,7 @@ Vi skal arbejde med programmering både i [Microsoft MakeCode](https://pxt.micro
 Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i gang vi starter ud med en simpel måde:
 
 # [Eksperiment nr. 1](/docs/first_experiment.md)
-# [Eksperiment nr. 2](/doc/sec_experiment.md)
+# [Eksperiment nr. 2](/docs/sec_experiment.md)
 
 
 
