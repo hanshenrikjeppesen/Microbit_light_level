@@ -111,9 +111,9 @@ while True:
     sleep(100)
     display.clear()
 ```
-```markdown
 
-## Hvorfor 0-1023 ??
+
+# Hvorfor 0-1023 ??
 
 I microbitten sidder en Analog til Digital converter (ADC). Microbitten forstår kun 0 og 1. 0 volt = 0 og 3 volt = 1, hvad så med alt det imellem. I vores tilfælde hvis vi ville måle lystet, ville vi kun vide om det var lyst eller mørkt, alt der imellem vil vi gå glip af. Så det er heldigt vi har en ADC som kan hjælpe os med at måle flere nuancer. Opløsningen (resolution på engelsk), altså hvor godt kan vi måle imellem 0 og 1 afhænger af hvor mange bit vores ADC er på. Som med alt andet jo bedre opløsning jo flere bit jo mere koster den. Microbitten har en opløsning på 10bit altså får vi 2^10 = 1024 step. En computer startet altid med at tælle fra 0, så 0 - 1023 giver 1024 step. [læs mere om ADC](https://learn.sparkfun.com/tutorials/analog-to-digital-conversion)
 
