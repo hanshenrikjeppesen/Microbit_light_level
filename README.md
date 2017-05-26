@@ -1,6 +1,10 @@
 # Eksperiment med Lys og data optagelse
 
+![microbit_closeup](/IMAGE/microbit_closeup.jpg)
+
 Vi skal prøve at måle lysintensiteten som er i rummet omkring microbitten. Lys måles normalt i [LUX](https://da.wikipedia.org/wiki/Lux) som er [SI-enhed](https://da.wikipedia.org/wiki/Syst%C3%A8me_International_d%27Unit%C3%A9s) for måling af belysningsstyrke. I vores arbejde med microbitten bliver vores målinger oversat (translateret) til en analog strømstyrke. Denne strøm kan veksle mellem 0V og 3V. OV vil sige intet lys, og som i nok allerede har gættet 3V vil sige MEGET lys. Microbitten omdanner den målte værdi til et tal mellem 0 og 1023 (Hvorfor 1023 ??)
+
+
 
 Vores målinger kan vi bruge til mange forskellig opgaver, foreksempel:
 * En alarm som ringer når nogen tænder lyset på dit værelse
