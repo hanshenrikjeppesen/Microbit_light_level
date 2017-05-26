@@ -4,7 +4,7 @@
 
 Vi skal prøve at måle lysintensiteten som er i rummet omkring microbitten. Lys måles normalt i [LUX](https://da.wikipedia.org/wiki/Lux) som er [SI-enhed](https://da.wikipedia.org/wiki/Syst%C3%A8me_International_d%27Unit%C3%A9s) for måling af belysningsstyrke. I vores forsøg og eksperimenter med microbitten bliver vores målinger oversat (translateret) til en analog elektrisk spænding. Denne analoge spænding kan veksle mellem 0 og 3 Volt. (enheden Volt er opkaldt efter [Alessandro Volta](https://da.wikipedia.org/wiki/Alessandro_Volta). 0 Volt vil sige intet lys, og som i nok allerede har gættet 3 Volt vil sige MEGET lys. Microbitten omdanner den målte værdi til et heltal, et tal mellem 0 og 1023. I computersprog hedder det en Integer.
 
-[Hvorfor 0 - 1023??](#hvorfor-0-1023-??)
+[hvorfor 1023?](#hvorfor-1023?)
 
 
 
@@ -113,7 +113,7 @@ while True:
 ```
 
 
-# Hvorfor 0-1023 ??
+# hvorfor 1023?
 
 I microbitten sidder en Analog til Digital converter (ADC). Microbitten forstår kun 0 og 1. 0 volt = 0 og 3 volt = 1, hvad så med alt det imellem. I vores tilfælde hvis vi ville måle lystet, ville vi kun vide om det var lyst eller mørkt, alt der imellem vil vi gå glip af. Så det er heldigt vi har en ADC som kan hjælpe os med at måle flere nuancer. Opløsningen (resolution på engelsk), altså hvor godt kan vi måle imellem 0 og 1 afhænger af hvor mange bit vores ADC er på. Som med alt andet jo bedre opløsning jo flere bit jo mere koster den. Microbitten har en opløsning på 10bit altså får vi 2^10 = 1024 step. En computer startet altid med at tælle fra 0, så 0 - 1023 giver 1024 step. [læs mere om ADC](https://learn.sparkfun.com/tutorials/analog-to-digital-conversion)
 
