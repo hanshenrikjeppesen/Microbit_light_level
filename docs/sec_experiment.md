@@ -33,7 +33,7 @@ while True:
 
 Vi tager i første omgang udgangspunkt i Inventors Kit længere nede kan du finde opsætningen hvis man anvender photosensoren direkte med krokodille kabler:
 
-![Opsætning af breadboard](Microbit_light_level/IMAGE/experiment_light_breadboard.png)
+![Opsætning af breadboard](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/experiment_light_breadboard.png)
 
    
 # anchors-in-markdown
