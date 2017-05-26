@@ -8,7 +8,7 @@ Vores målinger kan vi bruge til mange forskellig opgaver, foreksempel:
 * Tilpasse lysniveau i et rum efter narturligt lys som kommer ind i rummet
 * Lave et diagram over solen som står op
 
-
+[link](/docs/newPage.md)
 Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i med en simpel måde:
 
 ## Første eksperiment
