@@ -2,7 +2,7 @@
 Vi starte med en simpel måling af lysniveauet i lokalet og skrive værdien på microbittens display når vi trykker på knap A
 Til dette forsøg bruger vi microbittens eget display til at måle lysintensiteten, den kan kun give os et tal mellem 0 og 255 altså 256 step. Så den har ikke så god en opløsning som den ADC du kan læse om på [forsiden](https://github.com/hanshenrikjeppesen/Microbit_light_level/blob/master/README.md).  
 
-![microbit](https://github.com/hanshenrikjeppesen/Microbit_light_level/master/IMAGE/microbit.jpg)
+![microbit](https://github.com/hanshenrikjeppesen/Microbit_light_level/blob/master/IMAGE/microbit.jpg)
 
 ### Hvad skal vi bruge
 Til dette forsøg skal vi kun bruge 2 ting.:
