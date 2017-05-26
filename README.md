@@ -18,7 +18,7 @@ Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i gang vi
 # [Eksperiment nr. 2](/docs/sec_experiment.md)
 
 
-
+![måling af lys](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/measuring_light_alm2.jpg)
 
 
 # Hvorfor 1023
