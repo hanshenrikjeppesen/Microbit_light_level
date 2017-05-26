@@ -4,6 +4,16 @@ Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil p
 
 Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
 
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
+
 ### Hvad skal vi bruge:
 
 * 1 x BBC microbit
