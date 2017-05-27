@@ -18,8 +18,17 @@ Vi skal arbejde med programmering både i [Microsoft MakeCode](https://pxt.micro
 
 og [MicroPython](http://python.microbit.org/editor.html)
 
+```python
+from microbit import *
 
-
+while True:
+    lysniveau = pin0.read_analog()
+    
+    if button_a.is_pressed():
+        display.scroll(str(lysniveau))
+    else:
+        display.clear()
+```
 Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i gang vi starter ud med en simpel måde:
 
 # [Eksperiment nr. 1](/docs/first_experiment.md)
