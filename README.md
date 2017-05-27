@@ -12,7 +12,11 @@ Vores målinger kan vi bruge til mange forskellig opgaver, foreksempel:
 * Tilpasse lysniveau i et rum efter narturligt lys som kommer ind i rummet
 * Lave et diagram over solen som står op
 
-Vi skal arbejde med programmering både i [Microsoft MakeCode](https://pxt.microbit.org/) og [MicroPython](http://python.microbit.org/editor.html)
+Vi skal arbejde med programmering både i [Microsoft MakeCode](https://pxt.microbit.org/)
+
+![blocks](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/blocks_light_level01.png)
+
+og [MicroPython](http://python.microbit.org/editor.html)
 
 
 
