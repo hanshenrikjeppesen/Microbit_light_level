@@ -27,7 +27,7 @@ while True:
     if button_a.is_pressed():
         display.scroll(str(lysniveau))
     else:
-        display.clear()
+        display.clear()
 ```
 Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i gang vi starter ud med en simpel måde:
 
