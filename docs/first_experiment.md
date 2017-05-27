@@ -16,8 +16,8 @@ Vi skal slutte med at have følgende kode som skal overføres til microbitten:
 
 ![slut kode](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/blocks_light_level01.png)
 
-### Lad os lad os bryde det ned i nogle step:
-## Først skal vi have en inputknap, den trækker vi ud på vores skrivebord, vores codebord
+## Lad os lad os bryde det ned i nogle step:
+#### Først skal vi have en inputknap, den trækker vi ud på vores skrivebord, vores codebord
 ![step01](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step01.png)
 
 
