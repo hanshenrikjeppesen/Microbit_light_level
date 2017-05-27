@@ -34,7 +34,7 @@ Vi skal slutte med at have følgende kode som skal overføres til microbitten:
 
 ![step04](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step04.png)
 
-**Så mangler vi kun at sørger for, at det er vores variabel ```lysniveau```som bliver vist og ikke nummer 0
+**Så mangler vi kun at sørger for, at det er vores variabel ```lysniveau```som bliver vist og ikke nummer 0**
 
 ![step05](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step05.png)
 
