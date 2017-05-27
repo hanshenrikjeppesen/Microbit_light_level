@@ -31,5 +31,6 @@ Vi skal slutte med at have følgende kode som skal overføres til microbitten:
 ![step04](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step04.png)
 ![step05](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step05.png)
 
-
+## Det færdige program in action
+![end_gif](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_gif.gif)
 
