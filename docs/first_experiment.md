@@ -22,7 +22,7 @@ Vi skal slutte med at have følgende kode som skal overføres til microbitten:
 
 ![step01](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step01.png)
 
-**Herefter skal vi have en variabel som vi kan tildele en værdi. Variablen omdøber (rename) vi til ```lysniveau```**
+**Herefter skal vi bruge en variabel som vi kan tildele en værdi. Variablen omdøber (rename) vi til ```lysniveau```**
 
 ![step02](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step02.png)
 
