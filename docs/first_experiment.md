@@ -18,13 +18,13 @@ Vi skal slutte med at have følgende kode som skal overføres til microbitten:
 
 ## Lad os lad os bryde det ned i nogle step:
 
-**Først skal vi have en inputknap, den trækker vi ud på vores skrivebord, vores codebord
+** Først skal vi have en inputknap, den trækker vi ud på vores skrivebord, vores codebord
 ![step01](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step01.png)
 
-**Herefter skal vi have en variabel som vi kan tildele en værdi. Variablen omdøber (rename) vi til lysniveau
+** Herefter skal vi have en variabel som vi kan tildele en værdi. Variablen omdøber (rename) vi til lysniveau
 ![step02](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step02.png)
 
-**Nu vi har lavet vores variabel og kaldt den lysniveau, er vi klar til at give den en værdi. Under "Input" finder vi en block som hedder "light level"
+** Nu vi har lavet vores variabel og kaldt den lysniveau, er vi klar til at give den en værdi. Under "Input" finder vi en block som hedder "light level"
 ![step03](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step03.png)
 
 
