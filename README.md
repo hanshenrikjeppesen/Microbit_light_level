@@ -1,4 +1,4 @@
-# Eksperiment med Lys og dataoptagelse
+# Eksperimenter med lys og dataoptagelse
 
 ![microbit_closeup](/IMAGE/microbit_closeup.jpg)
 
@@ -11,6 +11,8 @@ Vores målinger kan vi bruge til mange forskellig opgaver, foreksempel:
 * Lave et diagram over solen som står op
 
 Vi skal arbejde med programmering både i [Microsoft MakeCode](https://pxt.microbit.org/) og [MicroPython](http://python.microbit.org/editor.html)
+
+
 
 Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i gang vi starter ud med en simpel måde:
 
