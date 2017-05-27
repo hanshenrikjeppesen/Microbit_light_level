@@ -19,3 +19,10 @@ Vi skal slutte med at have følgende kode som skal overføres til microbitten:
 Lad os tage det i nogle step:
 
 ![step01](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step01.png)
+![step02](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step02.png)
+![step03](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step03.png)
+![step04](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step04.png)
+![step05](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step05.png)
+
+
+
