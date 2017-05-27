@@ -34,4 +34,5 @@ I microbitten sidder en Analog til Digital converter (ADC). Microbitten forstår
 # Tracking af dyr
 
 For at følge et dyr i naturen og estimere dens position, kan man anvende Global Positioning System, det vi kender som [GPS](https://da.wikipedia.org/wiki/Global_Positioning_System).
+
 ![GPS](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ConstellationGPS.gif)
