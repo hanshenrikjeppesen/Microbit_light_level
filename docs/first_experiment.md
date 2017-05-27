@@ -12,6 +12,10 @@ Til dette forsøg skal vi kun bruge følgende ting.:
 * 1 x USB kabel
 * 1 x Computer med internet og [Microsoft MakeCode](https://pxt.microbit.org/)
 
-Vi skal have lavet følgende kode:
+Vi skal slutte med at have følgende kode som skal overføres til microbitten:
 
 ![slut kode](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/blocks_light_level01.png)
+
+Lad os tage det i nogle step:
+
+![step01](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_step01.png)
