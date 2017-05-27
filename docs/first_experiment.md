@@ -42,3 +42,4 @@ Vi skal slutte med at have følgende kode som skal overføres til microbitten:
 
 ![end_gif](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/ex01_gif.gif)
 
+[Tilbage til toppen](#første-eksperiment)
