@@ -34,12 +34,6 @@ Vi tager i første omgang udgangspunkt i Inventors Kit længere nede kan du find
 
 ![Opsætning af breadboard](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/experiment_light_breadboard.png)
 
-   
-# anchors-in-markdown
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 ```python
 from microbit import *
 import os
