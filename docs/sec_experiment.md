@@ -4,7 +4,7 @@ Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil p
 
 Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
 
-{% highlight Python linenos %}
+```python
 from microbit import *
 
 while True:
@@ -12,8 +12,8 @@ while True:
         break
     else:
         display.show(Image.ARROW_E)
-        
-{% endhighlight %}
+        
+```
 
 ### Hvad skal vi bruge:
 
