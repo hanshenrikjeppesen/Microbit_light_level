@@ -2,7 +2,7 @@
 
 ![microbit_closeup](/IMAGE/microbit_closeup.jpg)
 
-Vi skal prøve at måle lysintensiteten som er i rummet omkring microbitten. Lys måles normalt i [LUX](https://da.wikipedia.org/wiki/Lux) som er [SI-enhed](https://da.wikipedia.org/wiki/Syst%C3%A8me_International_d%27Unit%C3%A9s) for måling af belysningsstyrke. I vores forsøg og eksperimenter med microbitten bliver vores målinger oversat (translateret) til en analog elektrisk spænding. Denne analoge spænding kan veksle mellem 0 og 3 Volt. (enheden Volt er opkaldt efter [Alessandro Volta](https://da.wikipedia.org/wiki/Alessandro_Volta). 0 Volt vil sige intet lys, og som i nok allerede har gættet 3 Volt vil sige MEGET lys. Microbitten omdanner den målte værdi til et heltal, et tal mellem 0 og 1023. I computersprog hedder det en Integer. [Hvorfor 1023??](#hvorfor-1023)
+Vi skal prøve at måle lysintensiteten som er i rummet omkring microbitten. Lys måles normalt i [LUX](https://da.wikipedia.org/wiki/Lux) som er [SI-enhed](https://da.wikipedia.org/wiki/Syst%C3%A8me_International_d%27Unit%C3%A9s) for måling af belysningsstyrke. I vores forsøg og eksperimenter med microbitten bliver vores målinger oversat (translateret) til en analog elektrisk [spænding](http://denstoredanske.dk/It,_teknik_og_naturvidenskab/Fysik/Elektromagnetisme,_elektron-_og_ionoptik/sp%C3%A6nding). Denne analoge spænding kan veksle mellem 0 og 3 Volt. (enheden Volt er opkaldt efter [Alessandro Volta](https://da.wikipedia.org/wiki/Alessandro_Volta). 0 Volt vil sige intet lys, og som i nok allerede har gættet 3 Volt vil sige MEGET lys. Microbitten omdanner den målte værdi til et heltal, et tal mellem 0 og 1023. I computersprog hedder det en Integer. [Hvorfor 1023??](#hvorfor-1023)
 
 Måling af lysniveau og afstand mellem solopgang og solnedgang er blandt andet blevet brugt til [tracking af dyr](#tracking-af-dyr)
 
@@ -42,7 +42,7 @@ Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i gang vi
 
 I microbitten sidder en Analog til Digital converter (ADC). Microbitten forstår kun 0 og 1.
 
-| volt | binær |
+| spænding | binær |
 |----- | ----- |
 | 0 volt | 0 |
 | 3 volt | 1 |
