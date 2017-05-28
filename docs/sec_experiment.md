@@ -12,7 +12,6 @@ while True:
         break
     else:
         display.show(Image.ARROW_E)
-        
 ```
 
 ### Hvad skal vi bruge:
