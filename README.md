@@ -41,6 +41,7 @@ Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i gang vi
 # Hvorfor 1023
 
 I microbitten sidder en Analog til Digital converter (ADC). Microbitten forstår kun 0 og 1.
+
 | volt | binær |
 |----- | ----- |
 | 0 volt | 0 |
@@ -60,4 +61,5 @@ Andre har udviklet en metode, som bruger optagelser af lyset styrke og tiden mel
 
 ![tracking by light](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/Animal_lightLevel_tracking.png)
 
+[læs mere](http://rspb.royalsocietypublishing.org/content/277/1687/1531) om lys niveau, twilight zone og myres aktivitet
 [Tilbage til toppen](#eksperimenter-med-lys-og-dataoptagelse)
