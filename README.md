@@ -43,7 +43,7 @@ Vi kan måle lysniveauet på forskellige måder, så lad os bare komme i gang vi
 I microbitten sidder en Analog til Digital converter (ADC). Microbitten forstår kun 0 og 1.
 
 | spænding | binær |
-|----- | ----- |
+|:-----: | ----- |
 | 0 volt | 0 |
 | 3 volt | 1 |
 
