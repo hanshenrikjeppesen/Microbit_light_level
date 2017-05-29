@@ -14,7 +14,15 @@ while True:
         display.show(Image.ARROW_E)
 ```
 
-Der er flere forskellige måder at skriver og overføre MicroPython kode til microbitten, men vi vil tage udgangspunkt i de to nok mest benyttede metoder. På [python.microbit.org](http://python.microbit.org/editor.html) finder vi en online editor. Her kan vi skrive vores kode, gemme vores kode **Save** som en .py fil. Vi kan **Download** en .hex fil som vi kan overføre til microbitten for at lægge vores program over på den.   
+### Editors
+
+Der er flere forskellige måder at skriver og overføre MicroPython kode til microbitten, men vi vil tage udgangspunkt i de to nok mest benyttede metoder.
+
+### 1
+På [python.microbit.org](http://python.microbit.org/editor.html) finder vi en online editor. Her kan vi skrive vores kode, gemme vores kode **Save** som en .py fil. Vi kan **Download** en .hex fil som vi kan overføre til microbitten for at lægge vores program over på den.
+
+![micropython editor](Microbit_light_level/IMAGE/Micropython_editor.png)
+
 
 Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
 
