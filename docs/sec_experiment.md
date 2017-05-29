@@ -16,16 +16,6 @@ while True:
 
 Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
 
-```python
-from microbit import *
-
-while True:
-    if button_b.is_pressed():
-        break
-    else:
-        display.show(Image.ARROW_E)
-```
-
 ### Hvad skal vi bruge:
 
 * 1 x BBC microbit
