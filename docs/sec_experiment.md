@@ -2,7 +2,7 @@
 
 Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil på microbitten og når optagelsen er færdig, vil vi hente den over på en computer og arbejde videre så vi kan visualisere vores data. Det kan vi gøre på den nemme eller den spændende måde, men mere om det senere. Koden til dette eksperiment skriver vi i programmeringssproget [MicroPython](https://micropython.org/) som er en adoption af hovedsproget Python version 3.x. [MicroPython](https://micropython.org/) er tilrettet således at det kan bruges på en microcontroller som fx. en Micro:bit.
 
-Måde vi skriver vores koden på er lidt anderledes end hvad vi gjorde i det [første eksperiment](/docs/first_experiment.md). Her brugte vi et grafisk kodesprog Microsoft Blocks, nu vil vi bruge et tekst baseret kodesprog, her er et lille eksempel på noget af det kode vi skal skrive. 
+Måde vi skriver vores koden på er lidt anderledes end hvad vi gjorde i det [første eksperiment](Microbit_light_level/docs/first_experiment.md). Her brugte vi et grafisk kodesprog Microsoft Blocks, nu vil vi bruge et tekst baseret kodesprog, her er et lille eksempel på noget af det kode vi skal skrive. 
 
 ```python
 from microbit import *
