@@ -4,30 +4,11 @@ Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil p
 
 Måde vi skriver vores koden på er lidt anderledes end hvad vi gjorde i det [første eksperiment](https://hanshenrikjeppesen.github.io/Microbit_light_level/docs/first_experiment.html). Her brugte vi et grafisk kodesprog Microsoft Blocks, nu vil vi bruge et tekst baseret kodesprog, her er et lille eksempel på noget af det kode vi skal skrive. 
 
-```python
-from microbit import *
-
-while True:
-    if button_b.is_pressed():
-        break
-    else:
-        display.show(Image.ARROW_E)
-```
-
-### Editors
-
-Der er flere forskellige måder at skriver og overføre MicroPython kode til microbitten, men vi vil tage udgangspunkt i de to nok mest benyttede metoder.
-
-### 1
-På [python.microbit.org](http://python.microbit.org/editor.html) finder vi en online editor. Her kan vi skrive vores kode, gemme vores kode **Save** som en .py fil. Vi kan **Download** en .hex fil som vi kan overføre til microbitten for at lægge vores program over på den.
-
-![micropython editor](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/Micropython_editor.png)
-
+### Hvad skal vi bruge:
 
 Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
 
-### Hvad skal vi bruge:
-
+* En notesbog til al vores nye viden evt [en Rocketbook](https://getrocketbook.com/)
 * 1 x BBC microbit
 * 1 x Photosensor LDR (kan foreksempel købes [her](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/)
     * Har du et Inventors Kit fra Kitronik indeholder den en LDR [køb her](https://www.podconsultsbutik.dk/micro-bit-inventors-kit)
@@ -37,6 +18,23 @@ Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig af
 * 3 x kabler til forbindelse
    * Jumper wires hvis man anvender Inventors Kit
    * ellers krokodille kabler 
+
+### Editors
+
+Der er forskellige måder at skriver og overføre din MicroPython kode til microbitten, men vi vil tage udgangspunkt i de to nok mest benyttede metoder og vi vil lave et lille forsøg, som vil vise at det ikke er helt ligegyldig hvilken editor vi bruger.
+
+#### 1
+På [python.microbit.org](http://python.microbit.org/editor.html) finder vi en online editor. Her kan vi skrive vores kode, gemme vores kode **Save** som en .py fil. Vi kan **Download** en .hex fil som vi kan overføre til microbitten for at lægge vores program over på den.
+
+![micropython editor](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/Micropython_editor.png)
+
+#### 2
+
+Editoren [Mu](https://codewith.mu/) er en rigtig god og simpel editor og kan hentes og installers på Windows, OSX, Linux og Raspberry Pi.  
+
+
+
+
 
 ![Billede af inventors kit](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/5603_inventors_kit_for_the_bbc_microbit_description.jpg)
 
