@@ -32,6 +32,7 @@ På [python.microbit.org](http://python.microbit.org/editor.html) finder vi en o
 
 Editoren [Mu](https://codewith.mu/) er en rigtig fin og simpel editor og kan hentes og installers på Windows, OSX, Linux og Raspberry Pi.
 
+![mu editor](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/mu_editor_screen.png)
 
 
 
