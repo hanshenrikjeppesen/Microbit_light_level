@@ -8,7 +8,7 @@ Måde vi skriver vores koden på er lidt anderledes end hvad vi gjorde i det [f�
 
 Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
 
-* En notesbog til al vores nye viden evt [en Rocketbook](https://getrocketbook.com/)
+* En notesbog til at holde styr på alt vores nye viden evt [en Rocketbook](https://getrocketbook.com/)
 * 1 x BBC microbit
 * 1 x Photosensor LDR (kan foreksempel købes [her](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/)
     * Har du et Inventors Kit fra Kitronik indeholder den en LDR [køb her](https://www.podconsultsbutik.dk/micro-bit-inventors-kit)
@@ -35,17 +35,19 @@ Editoren [Mu](https://codewith.mu/) er en rigtig fin og simpel editor og kan hen
 ![mu editor](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/mu_editor_screen.png)
 
 
-
-
-
-
-![Billede af inventors kit](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/5603_inventors_kit_for_the_bbc_microbit_description.jpg)
-
 ### Vores forsøgsopsætning
 
 Vi tager i første omgang udgangspunkt i Inventors Kit længere nede kan du finde opsætningen hvis man anvender photosensoren direkte med krokodille kabler:
 
+![Billede af inventors kit](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/5603_inventors_kit_for_the_bbc_microbit_description.jpg)
+
 ![Opsætning af breadboard](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/experiment_light_breadboard.png)
+
+Hvis du har købt en LDR hos [microbit-accessories](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/) vil din forsøgsopstilling se sådan her ud:
+
+![Opsætning med LDR Clip_cabel](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/Microbit_with_LDR_clip.jpg)
+
+
 
 ```python
 from microbit import *
