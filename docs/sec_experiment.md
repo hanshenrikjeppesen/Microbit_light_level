@@ -43,7 +43,7 @@ Vi tager i første omgang udgangspunkt i Inventors Kit længere nede kan du find
 
 ![Opsætning af breadboard](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/experiment_light_breadboard.png)
 
-Hvis du har købt en LDR hos [microbit-accessories](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/) vil din forsøgsopstilling se sådan her ud:
+Hvis du har en LDR son er købt hos [microbit-accessories](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/) vil din forsøgsopstilling se sådan her ud:
 
 ![Opsætning med LDR Clip_cabel](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/Microbit_with_LDR_clip.jpg)
 
