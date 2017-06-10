@@ -4,7 +4,7 @@ Vi skal arbejde med at optage data over en periode, data vil vi gemme i en fil p
 
 Måde vi skriver vores koden på er lidt anderledes end hvad vi gjorde i det [første eksperiment](https://hanshenrikjeppesen.github.io/Microbit_light_level/docs/first_experiment.html). Her brugte vi et grafisk kodesprog Microsoft Blocks, nu vil vi bruge et tekst baseret kodesprog, her er et lille eksempel på noget af det kode vi skal skrive. 
 
-### Hvad skal vi bruge:
+## Hvad skal vi bruge:
 
 Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
 
@@ -19,23 +19,23 @@ Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig af
    * Jumper wires hvis man anvender Inventors Kit
    * ellers krokodille kabler 
 
-### Editors
+## Editors
 
-Der er forskellige måder at skriver og overføre din MicroPython kode til microbitten, men vi vil tage udgangspunkt i de to nok mest benyttede metoder og vi vil lave et lille forsøg, som vil vise at det ikke er helt ligegyldig hvilken editor vi bruger.
+Der er forskellige måder at skriver og overføre din MicroPython kode til microbitten, men vi vil tage udgangspunkt i de to nok mest benyttede metoder og vi vil lave et lille forsøg, som vil vise at det ikke er helt ligegyldig hvilken editor vi bruger, .
 
-#### 1
+### Editor nr. 1
 På [python.microbit.org](http://python.microbit.org/editor.html) finder vi en online editor. Her kan vi skrive vores kode, gemme vores kode **Save** som en .py fil. Vi kan **Download** en .hex fil som vi kan overføre til microbitten for at lægge vores program over på den.
 
 ![micropython editor](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/Micropython_editor.png)
 
-#### 2
+### Editor nr. 2
 
 Editoren [Mu](https://codewith.mu/) er en rigtig fin og simpel editor og kan hentes og installers på Windows, OSX, Linux og Raspberry Pi.
 
 ![mu editor](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/mu_editor_screen.png)
 
 
-### Vores forsøgsopsætning
+## Vores forsøgsopsætning
 
 Vi tager i første omgang udgangspunkt i Inventors Kit længere nede kan du finde opsætningen hvis man anvender photosensoren direkte med krokodille kabler:
 
@@ -43,11 +43,13 @@ Vi tager i første omgang udgangspunkt i Inventors Kit længere nede kan du find
 
 ![Opsætning af breadboard](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/experiment_light_breadboard.png)
 
-Hvis du har en LDR son er købt hos [microbit-accessories](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/) vil din forsøgsopstilling se sådan her ud:
+Hvis du har en LDR som er købt hos [microbit-accessories](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/) vil din forsøgsopstilling kunne se sådan her ud:
 
 ![Opsætning med LDR Clip_cabel](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/Microbit_with_LDR_clip.jpg)
 
+## Test af program
 
+Som beskrevet lidt længere oppe er det ikke helt uvæsentlig hvilken editor vi bruger til at skrive vores kode i. Der er begrænset plads på microbitten så vi kan ikke gemme meget data, men lidt kan vi gemme og nok til at lave nogle spændende eksperimenter. 
 
 ```python
 from microbit import *
