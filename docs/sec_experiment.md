@@ -30,7 +30,9 @@ På [python.microbit.org](http://python.microbit.org/editor.html) finder vi en o
 
 #### 2
 
-Editoren [Mu](https://codewith.mu/) er en rigtig god og simpel editor og kan hentes og installers på Windows, OSX, Linux og Raspberry Pi.  
+Editoren [Mu](https://codewith.mu/) er en rigtig fin og simpel editor og kan hentes og installers på Windows, OSX, Linux og Raspberry Pi.
+
+
 
 
 
