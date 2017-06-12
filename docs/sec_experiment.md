@@ -61,20 +61,26 @@ while True:
     else:
         display.show(Image.ARROW_E)
 ```
-**linje 1** her importere vi modulet **microbit** som indeholde de funktioner vi skal bruge for at kommunikere med microbitten og det hardware som den har indbygget. Ved at bruge tegnet **"*"** (tegnet hedder asterisk) importerer vi alle funktioner i modulet. Læs mere om import af moduler i python [her](https://docs.python.org/3/tutorial/modules.html)
+**linje 1** her importere vi modulet **microbit** som indeholde de funktioner vi skal bruge for at kommunikere med microbitten og det hardware som den har indbygget. Ved at bruge tegnet "*" (tegnet hedder asterisk) importerer vi alle funktioner i modulet. Læs mere om import af moduler i python [her](https://docs.python.org/3/tutorial/modules.html)
 
 **linje 3** vi starter et forever loop, i **linje 4** checker vi om der er trykket på knap B, hvis denne kontrol er *sand* vil den udføre **linje 5** *break* som gør at programmet bryder ud af while True loopet. Hvis kontrollen i **linje 4** er *falsk* udføre den ikke koden og går videre til **linje 6** som er else: som siger at hvis ikke ovenstående udføres skal dette udføres og det er **linje 7** som fortæller microbitten at den skal vise en billede som hedder *ARROW_E* Det er en pil som peger mod knap B     
 
 ```python
 file = 'lightLevel.csv'
+reading = 0
 
 light = pin0.read_analog()
 
 with open(file, 'w') as new_file:
     new_file.write(str(light) + '\n')
+```
+i **linje 1** opretter vi en variabel som vi kalder *file* den tildeler vi værdien *"lightLevel.csv"* som er en *string* en tekststreng som er navnet på den fil, hvor vi vil gemme data i senere. Vi kunne have skrevet navnet på filen ned igennem programmet, men på denne her måde skal vi kun ændre det et sted, hvis vi beslutter os for at vi vil have et nyt filnavn. **Linje 2** her opretter vi en variabel *reading* og giver den værdien *0* som er en integer, på dansk kaldes det heltal. 
 
-reading = 0
+**Linje 4** her opretter vi endnu en variabel og kalder den *light* den får en værdi som vi læser fra pin0 med funktionen *read_analog()* en værdi mellem 0 og 1023.
 
+
+
+```python
 try:
     while True:
         light = pin0.read_analog()
