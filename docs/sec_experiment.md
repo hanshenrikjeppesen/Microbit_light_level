@@ -61,7 +61,9 @@ while True:
     else:
         display.show(Image.ARROW_E)
 ```
-Vi starter med ```from microbit import *``` her importere vi modulet ```microbit``` som indeholde de funktioner vi skal bruge for at kommunikere med microbitten og det hardware som den har indbygget. Ved at bruge tegnet ```*``` (tegnet hedder asterisk) importerer vi alle funktioner i modulet. Læs mere om import af moduler [her](https://docs.python.org/3/tutorial/modules.html)
+**linje 1** her importere vi modulet **microbit** som indeholde de funktioner vi skal bruge for at kommunikere med microbitten og det hardware som den har indbygget. Ved at bruge tegnet **"*"** (tegnet hedder asterisk) importerer vi alle funktioner i modulet. Læs mere om import af moduler i python [her](https://docs.python.org/3/tutorial/modules.html)
+
+**linje 3** vi starter et forever loop, i **linje 4** checker vi om der er trykket på knap B, hvis denne kontrol er *sand* vil den udføre **linje 5** *break* som gør at programmet bryder ud af while True loopet. Hvis kontrollen i **linje 4** er *falsk* udføre den ikke koden og går videre til **linje 6** som er else: som siger at hvis ikke ovenstående udføres skal dette udføres og det er **linje 7** som fortæller microbitten at den skal vise en billede som hedder *ARROW_E* Det er en pil som peger mod knap B     
 
 ```python
 file = 'lightLevel.csv'
