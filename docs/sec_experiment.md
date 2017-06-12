@@ -8,7 +8,8 @@ Måde vi skriver vores koden på er lidt anderledes end hvad vi gjorde i det [f�
 
 Til vores eksperiment skal vi bruge lidt forskelligt og det kan selvfølgelig afhænge lidt af hvad man har til rådighed. Her er en liste over ting vi skal bruge:
 
-* En notesbog til at holde styr på alt vores nye viden evt [en Rocketbook](https://getrocketbook.com/)
+* En notesbog til at holde styr på alt vores nye viden
+   * evt [en Rocketbook](https://getrocketbook.com/) så kan ens noter hurtigt blive digitaliseret.
 * 1 x BBC microbit
 * 1 x Photosensor LDR (kan foreksempel købes [her](http://microbit-accessories.co.uk/shop/sensor/ldr-light-sensor/)
     * Har du et Inventors Kit fra Kitronik indeholder den en LDR [køb her](https://www.podconsultsbutik.dk/micro-bit-inventors-kit)
@@ -49,7 +50,50 @@ Hvis du har en LDR som er købt hos [microbit-accessories](http://microbit-acces
 
 ## Test af program
 
-Som beskrevet lidt længere oppe er det ikke helt uvæsentlig hvilken editor vi bruger til at skrive vores kode i. Der er begrænset plads på microbitten så vi kan ikke gemme meget data, men lidt kan vi gemme og nok til at lave nogle spændende eksperimenter. 
+Som beskrevet lidt længere oppe er det ikke helt uvæsentlig hvilken editor vi bruger til at skrive vores kode i. Der er begrænset plads på microbitten så vi kan ikke gemme meget data, men lidt kan vi gemme og nok til at lave nogle spændende eksperimenter. Vorest testprogram har til formål at teste hvor meget data, vi kan gemme på microbitten. Herunder er testprogrammet delt op i bloke med forklaring.
+
+```python
+from microbit import *
+
+while True:
+    if button_b.is_pressed():
+        break
+    else:
+        display.show(Image.ARROW_E)
+```
+Vi starter med ```from microbit import *``` her importere vi modulet ```microbit``` som indeholde de funktioner vi skal bruge for at kommunikere med microbitten og det hardware som den har indbygget. Ved at bruge tegnet ```*``` (tegnet hedder asterisk) importerer vi alle funktioner i modulet. Læs mere om import af moduler [her](https://docs.python.org/3/tutorial/modules.html)
+
+```python
+file = 'lightLevel.csv'
+
+light = pin0.read_analog()
+
+with open(file, 'w') as new_file:
+    new_file.write(str(light) + '\n')
+
+reading = 0
+
+try:
+    while True:
+        light = pin0.read_analog()
+    
+        with open(file, 'r') as data_file:
+            content = data_file.read()
+    
+        newContent = content + str(light) + '\n'
+    
+        with open(file, 'w') as data_file:
+            data_file.write(newContent)
+    
+        reading += 1
+        
+        display.set_pixel(2,2,5)
+        sleep(5)
+        display.clear() 
+except:
+    display.scroll(str(reading), loop=True)
+    
+```
 
 ```python
 from microbit import *
