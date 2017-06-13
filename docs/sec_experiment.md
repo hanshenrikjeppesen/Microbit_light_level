@@ -48,7 +48,7 @@ Hvis du har en LDR som er købt hos [microbit-accessories](http://microbit-acces
 
 ![Opsætning med LDR Clip_cabel](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/Microbit_with_LDR_clip.jpg)
 
-## Test af program
+## Testprogram
 
 Som beskrevet lidt længere oppe er det ikke helt uvæsentlig hvilken editor vi bruger til at skrive vores kode i. Der er begrænset plads på microbitten så vi kan ikke gemme meget data, men lidt kan vi gemme og nok til at lave nogle spændende eksperimenter. Vorest testprogram har til formål at teste hvor meget data, vi kan gemme på microbitten. Herunder er testprogrammet delt op i bloke med forklaring.
 
