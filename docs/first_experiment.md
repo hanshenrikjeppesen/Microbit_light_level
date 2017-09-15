@@ -16,6 +16,10 @@ Vi skal slutte med at have følgende kode som skal overføres til microbitten:
 
 ![slut kode](https://hanshenrikjeppesen.github.io/Microbit_light_level/IMAGE/blocks_light_level01.png)
 
+```blocks
+basic.clearScreen()
+```
+
 ## Lad os lad os bryde det ned i nogle step:
 
 **Først skal vi have en inputknap, den trækker vi ud på vores skrivebord, vores codebord**
